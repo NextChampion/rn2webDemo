@@ -35,4 +35,5 @@ module.exports = {
   devServer: {
     port: 9090,
   },
+  devtool: 'source-map', // 代码调试
 };
