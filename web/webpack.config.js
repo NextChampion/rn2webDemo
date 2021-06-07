@@ -18,7 +18,7 @@ module.exports = {
           loader: 'babel-loader',
           options: {},
         },
-        exclude: /node_modules/,
+        // exclude: /node_modules/,
       },
       {
         test: /\.(png|jpe?g|gif|svg)$/,
