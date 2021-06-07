@@ -9,6 +9,7 @@ import {
   TouchableOpacity,
   Image,
 } from 'react-native';
+import Banner from './Banner';
 
 export default class Home extends Component {
   componentDidMount() {
@@ -34,6 +35,7 @@ export default class Home extends Component {
             <Text>demo111111</Text>
             <Text>demo111111</Text>
             <Text>demo111111</Text>
+            <Banner />
             <TouchableOpacity onPress={this.onPress}>
               <Text>demo Button</Text>
             </TouchableOpacity>
